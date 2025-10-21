@@ -1,0 +1,42 @@
+<!doctype html>
+<html ng-app=cryptoPrank>
+    <head>
+        <meta charset=utf-8>
+        <title>DoomsDay ~ Never Ends! > Ransomware</title>
+        <link rel="shortcut icon" href=/favicons/favicon.ico>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel=stylesheet href=css/vendor-78d9a2ac80.css>
+        <link rel=stylesheet href=css/app-b4af0b1a22.css>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+        <div ng-view layout-fill></div>
+        <script src=js/vendor-09f2bd1b8e.js></script>
+        <script src=js/app-a6760edd59.js></script>
+        <script src="js/decrypt.js"></script>
+        <!--Google Analytics-->
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }
+                ,
+                i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            }
+            )(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-88920134-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit" async defer></script>
+    </body>
+</html>
