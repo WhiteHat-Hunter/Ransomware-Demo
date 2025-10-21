@@ -19,7 +19,7 @@ decryptButton.addEventListener('click', function() {
         if (enteredKey === CORRECT_KEY) {
             
             // Key is CORRECT
-            alert("Key Access Granted! ✅ - Plug the USB back to the System, to Unlock the System!");
+            alert("Key Access Granted! ✅ - System Unlocked & Files Decrypted Successfully! 🔓");
             
             // WARNING: This is the command to close the window.
             // Modern browsers often require the script to have opened 
@@ -36,4 +36,5 @@ decryptButton.addEventListener('click', function() {
         console.log("Decryption Process Cancelled.");
         alert("Decryption Process Cancelled. Are you Serious? 📂");
     }
+
 });
